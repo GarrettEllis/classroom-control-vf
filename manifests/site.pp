@@ -42,5 +42,5 @@ node default {
   # This is where you can declare classes for all nodes.
   # Example:
   #   class { 'my_class': }
-  notify { "Why hello there; my name is ${::hostname}": }
+  notify { "Well here we are again; my name is ${::hostname}": }
 }
