@@ -48,5 +48,5 @@ node default {
       owner: 'root',
       group: 'root',
       content: "I learned how to computer a thing, today.\n",
-  }
+  },
 }
