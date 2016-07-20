@@ -12,3 +12,4 @@ class skeleton {
     group => 'root',
     source => 'puppet:///skeleton/example.bashrc',
   }
+}
