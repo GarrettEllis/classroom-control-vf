@@ -52,6 +52,7 @@ node default {
   #    content => "I learned how to computer a thing, today.\n",
   #}
   include users
+  include skeleton
   exec { "/usr/local/bin/cowsay 'Welcome to ${::fqdn}!' > /etc/motd":
       user => 'root',
       creates => '/etc/motd',
