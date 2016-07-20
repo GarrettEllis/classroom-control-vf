@@ -51,6 +51,7 @@ node default {
   #    group => 'root',
   #    content => "I learned how to computer a thing, today.\n",
   #}
+  include users
   exec { "/usr/local/bin/cowsay 'Welcome to ${::fqdn}!' > /etc/motd":
       user => 'root',
       creates => '/etc/motd',
